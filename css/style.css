@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 14px;
+    font-family:'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+a,a:hover{
+    font-family:'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+/* Header Section Start */
+.header-section{
+    width:100%;
+    background:url("../images/bg.png")center top no-repeat;
+    background-size: cover;
+}
+.menu-section{
+    width: 100%;
+}
+.menu-section .bg-light{
+    background: transparent!important;
+}
+.menu-section .t-auto{
+    margin-left:auto;
+}
+.menu-section .navbar-light .navbar-nav .nav-link.active{
+    color: #ffffff;
+    margin-left: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    margin-left: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover, .menu-section .navbar-light .navbar-nav .nav-link:focus{
+    color: #ffffff;
+    background:url("../images/br.png")center bottom no-repeat;
+}
+.banner{
+    width:100%;
+    padding: 80px 0px;
+}
+.banner .inner-banner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.banner .inner-banner h5 {
+    color: #008ed6;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.banner .inner-banner h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.banner .inner-banner p {
+    color: #999999;
+    font-size: 16.7px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.banner .inner-btn {
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 35px;
+}
+.inner-btn .btn-primary {
+    color: #ffffff;
+    background: #008ed6;
+    padding: 10px 25px;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: .5s ease-in;
+    text-transform: uppercase;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus{
+    padding: 10px 25px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+
+.inner-btn .btn-info {
+    padding: 10px 25px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: .5s ease-in;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+.inner-btn .btn-info:hover{
+    color: #ffffff;
+    background: #008ed6;
+    padding: 10px 25px;
+    border: 1px solid #008ed6;
+    border-radius: 4px;
+}
+/* Header Section End */
+/* Feature Section Start */
+.feature-section{
+    width:100%;
+    padding: 60px 0px;
+}
+.feature-section .title {
+    width: 100%;
+    padding: 0px 0px 40px;
+}
+.feature-section .title h5 {
+    color: #008ed6;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.feature-section .title h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+.inner-feature{
+    padding: 40px 30px;
+    text-align: center;
+}
+.inner-circle{
+    width:95px;
+    height: 95px;
+    border-radius: 100%;
+    margin: 0px auto 30px;
+    line-height: 95px;
+    text-align: center;
+    border:1px solid #e5e5e5;
+}
+.inner-feature h5 {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.inner-feature p {
+    color: #999999;
+    font-size: 15.6px;
+    line-height: 25px;
+    font-weight: 500;
+}
+/* Feature Section End */
+/* About Long Section Start */
+.about-long{
+    width: 100%;
+    padding: 80px 0px;
+    border-top:1px solid #eee;
+}
+.about-long .title{
+    width:100%;
+    padding: 0 0 40px;
+}
+.about-long .title h5 {
+    color: #008ed6;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 60px 0 10px;
+    line-height: 0px;
+}
+.about-long .title h2 {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 65px;
+}
+.about-long .title p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    margin: 15px 0 25px;
+}
+.about-long .content{
+    width:100%;
+}
+.about-long .content p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.about-long .content img {
+    margin-right: 15px;
+}
